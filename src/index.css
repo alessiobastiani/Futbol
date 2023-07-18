@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carro{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.colour{
+    background-color: #011526;
+    color: whitesmoke;
+}
+
+.colour .brand{
+    color: whitesmoke;
+}
+
+.ColorLinck{
+    margin: auto;
+}
+.ColorLinck a {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ColorLinck a:hover{
+    color: whitesmoke;
+}
+
+
+.numero{
+    text-align: center;
+    font-size: 18px;
+}
+
+ion-icon {
+    font-size: 18px;
+}
