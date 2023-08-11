@@ -4,7 +4,7 @@ import ItemCount from './ItemCount';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../contex/ShoppingCartContext';
 
-const ItemDetail = ({nombre, categoria, description, id}) => {
+const ItemDetail = ({productos}) => {
     const {id} = useParams()
     const filteredProducts = productos.filter((producto) => producto.id == id)
     const [Quantity, setQuantity]= useState("")
@@ -13,9 +13,7 @@ const ItemDetail = ({nombre, categoria, description, id}) => {
         console.log(`compraste ${cantidad} productos`)
         setQuantity(cantidad)
         const item = {
-            id,
-            categoria,
-            nombre
+            id
         }
         addToCart(item, cantidad)
     }
