@@ -4,13 +4,35 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 .carro{
     display: flex;
-    width: 50px;
-    justify-content: center;
+    width: 100px;
     align-items: center;
 }
 
+.navbar a{
+    text-decoration: none;
+}
+
+.numero{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    background-color: #A904BF;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+
+.colour .carro{
+    margin-top: 30px;
+}
 
 .colour{
     background-color: #030502;
@@ -34,10 +56,12 @@
     gap: 25px;
 }
 
+
 .target{
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     border-radius: 5px;
     border: none;
+    background-color: #030502;
 }
 
 .brand-logo{
@@ -49,10 +73,11 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+    font-family: 'Tektur', cursive;
 }
 
 .ColorLinck a {
-    font-size: 13px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     color: whitesmoke;
@@ -63,36 +88,18 @@
     margin: 30px;
 }
 
-.card-detail{
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-}
-
-.count{
-    width: 100%;
-}
-
-.numero-count{
+.oferta .gratis{
+    background-color:#A904BF;
+        font-family: 'Tektur', cursive;
+    color: whitesmoke;
+    height: 40px;
+    margin: 0;
     text-align: center;
-    background-color: #030502;
-    width: 20%;
-    margin: auto;
-    margin-bottom: 15px;
-    color: white;
-    border-radius: 10px;
+    padding-top: 8px;
 }
 
-.botones{
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    background-color: #030502;
-}
+
+
 
 button {
     position: relative;
@@ -188,11 +195,60 @@ button {
     background-size: cover;
 }
 
-.numero{
-    text-align: center;
-    font-size: 18px;
+ion-icon {
+    font-size: 25px;
+    color: white;
 }
 
-ion-icon {
-    font-size: 18px;
+.cardi{
+    display: flex;
+    width: 50%;
+    height: 400px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    margin: auto;
+    margin-top: 50px;
+  }
+
+.container-image img{
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    
+}
+
+.count{
+    margin-top: 35px;
+}
+
+.botones{
+    margin-top: 15px;
+}
+
+.botonmas{
+    margin-right: 10px;
+}
+
+.botonmenos{
+    margin-left: 10px;
+}
+
+.numero-count{
+    text-align: center;
+    background-color: #A904BF;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
 }

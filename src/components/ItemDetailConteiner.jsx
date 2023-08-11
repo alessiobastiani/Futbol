@@ -1,11 +1,11 @@
 import React from 'react'
 import pelota from "../assets/pelota.jpg"
-import pelota2 from "../assets/pelota2.jpg"
+import pelota2 from "../assets/pelota2.png"
 import pelota3 from "../assets/pelota3.jpg"
 import botines1 from "../assets/botines1.jpg"
 import botines2 from "../assets/botinres2.jpg"
 import botines3 from "../assets/botines3.jpg"
-import casaca1 from "../assets/casaca1.jpg"
+import casaca1 from "../assets/casaca1.png"
 import casaca2 from "../assets/casaca2.jpg"
 import casaca3 from "../assets/casaca3.jpg"
 import ItemDetail from './ItemDetail'
@@ -43,8 +43,7 @@ const ItemDetailConteiner = () => {
 
     return (
         <>
-            <ItemDetail
-            productos={productos}
+            <ItemDetail {...productos}
             />
         </>
     )

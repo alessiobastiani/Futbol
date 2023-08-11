@@ -1,6 +1,5 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const Item = ({
@@ -11,6 +10,7 @@ const Item = ({
   stock,
   img
 })=>{
+
   return (
     <Card className='target' style={{ width: '18rem' }}>
     <Card.Img src={img}/>
