@@ -34,6 +34,7 @@ const NavBar = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className=" ColorLinck justify-content-center  flex-grow-1 pe-3">
+                <Link to={"/catalogoCompleto"} className='linck'>Catalogo completo</Link>
                 <Link to={`/categoria/${"Casacas"}`} className='linck' >Casacas</Link>
                 <Link to={`/categoria/${"Botines"}`} className='linck'>Botines</Link>
                 <Link to={`/categoria/${"Pelotas"}`} className='linck' >Pelotas</Link>
